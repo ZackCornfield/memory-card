@@ -1,6 +1,6 @@
 import "./Card.css";    
 
-export default function Card({onCLick, characterId, characterName, characterImage}) {
+export default function Card({onClick, characterId, characterName, characterImage}) {
     return (
         <div
             className="card-container"
